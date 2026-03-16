@@ -6,24 +6,23 @@ using System.Web.Mvc;
 
 namespace ContaOnline.UI.Web.Controllers
 {
-    public class HomeController : Controller
+    public class AppController : Controller
     {
-        public ActionResult Index()
+        // Tela Inicial
+        public ActionResult Inicio()
         {
             return View();
         }
 
-        public ActionResult About()
+        // Tela Registro
+        public ActionResult Registro()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
-        public ActionResult Contact()
+        // Tela Sobre
+        public ActionResult Sobre()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
     }
