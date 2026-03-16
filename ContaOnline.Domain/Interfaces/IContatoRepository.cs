@@ -7,12 +7,7 @@ using System.Threading.Tasks;
 
 namespace ContaOnline.Domain.Interfaces
 {
-    public interface IRepository<T>
+    public interface IContatoRepository:IRepository<Contato>
     {
-        void Incluir(T entidade);
-        void Alterar(T entidade);
-        void Excluir(string id);
-        T ObterPorId(string id);
-        IEnumerable<T> ObterTodos();
     }
 }

@@ -1,3 +1,5 @@
 <Solution>
-  <Project Path="ContaOnline.Domain/ContaOnline.Domain.csproj" />
+  <Project Path="ContaOnline.Domain/ContaOnline.Domain.csproj" Id="547767d6-634d-420d-a95e-d20e0a11cc74" />
+  <Project Path="ContaOnline.Repository/ContaOnline.Repository.csproj" Id="530435d6-cf28-40ed-8187-b73468579b38" />
+  <Project Path="ContaOnline.Service/ContaOnline.Service.csproj" Id="38f990f3-e86e-41f6-b694-5ac0c5024033" />
 </Solution>
