@@ -36,7 +36,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\IContaCategoriaRepository.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
+    <Compile Include="Interfaces\IUsuario.cs" />
     <Compile Include="Models\ContaCategoria.cs" />
+    <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
