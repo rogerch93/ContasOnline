@@ -14,5 +14,7 @@ namespace ContaOnline.Domain.Interfaces
         void Excluir(string id);
         T ObterPorId(string id);
         IEnumerable<T> ObterTodos();
+
+        IEnumerable<string> Validar();
     }
 }
