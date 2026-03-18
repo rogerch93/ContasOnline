@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace ContaOnline.Repository
 {
-    public class ContatoRepository : IContatoRepository
+    public class ContaRepository : IContaRepository
     {
-        public void Alterar(Contato entidade)
+        public void Alterar(Conta entidade)
         {
             throw new NotImplementedException();
         }
@@ -20,17 +20,22 @@ namespace ContaOnline.Repository
             throw new NotImplementedException();
         }
 
-        public void Incluir(Contato entidade)
+        public void Incluir(Conta entidade)
         {
             throw new NotImplementedException();
         }
 
-        public Contato ObterPorId(string id)
+        public IEnumerable<Conta> ObterPorFiltro(ContaFiltro filtro)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Contato> ObterTodos()
+        public Conta ObterPorId(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Conta> ObterTodos()
         {
             throw new NotImplementedException();
         }
